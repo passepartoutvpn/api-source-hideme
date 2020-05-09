@@ -49,7 +49,27 @@ external = {
 recommended_cfg = cfg.dup
 recommended_cfg["ep"] = [
     "UDP:3000",
-    "TCP:3000"
+    "UDP:3010",
+    "UDP:3020",
+    "UDP:3030",
+    "UDP:3040",
+    "UDP:3050",
+    "UDP:3060",
+    "UDP:3070",
+    "UDP:3080",
+    "UDP:3090",
+    "UDP:3100",
+    "TCP:3000",
+    "TCP:3010",
+    "TCP:3020",
+    "TCP:3030",
+    "TCP:3040",
+    "TCP:3050",
+    "TCP:3060",
+    "TCP:3070",
+    "TCP:3080",
+    "TCP:3090",
+    "TCP:3100"
 ]
 recommended = {
     id: "default",
