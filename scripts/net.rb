@@ -10,7 +10,7 @@ load "util.rb"
 
 servers = File.read("../template/servers.json")
 ca = File.read("../static/ca.crt")
-tls_wrap = read_tls_wrap("crypt", 1, "../static/tc.key", 1, 17)
+tls_wrap = read_tls_wrap("crypt", 1, "../static/tc.key", 1)
 
 cfg = {
     ca: ca,
